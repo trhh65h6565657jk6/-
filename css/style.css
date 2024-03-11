@@ -253,10 +253,10 @@ nav {
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: uppercase;
+    color: #ffffff;
     border: none;
     border-radius: 2px;
     background-color: #959595;
-    color: #ffffff;
 }
 
 /* social-media */
@@ -285,34 +285,34 @@ footer {
     padding-left: 46px;
 }
 
-.social-media li a{
+.social-media li a {
     font-size: 14px;
     text-decoration: none;
     color: #777777;
 }
 
-.social-media li:nth-child(1){
+.social-media li:nth-child(1) {
     padding-left: 0;
 }
 
-.slider{
-    background-image: url(../img/slider_01.png);
-    background-position: 4% 4%;
+.slider {
     padding-top: 110px;
     padding-bottom: 116px;
+    background-image: url(../img/slider_01.png);
+    background-position: 4% 4%;
 }
 
 .slider h1 {
-    text-align: center;
     max-width: 580px;
-    font-size: 48px;
     margin-top: 0px;
     margin-bottom: 44px;
+    font-size: 48px;
     font-weight: 300;
     letter-spacing: 5px;
+    text-align: center;
     text-transform: uppercase;
-    background-color: #000000;
     color: #ffffff;
+    background-color: #000000;
 }
 
 .slider p {
@@ -323,7 +323,6 @@ footer {
     text-transform: uppercase;
     color: #000000;
 }
-
 
 footer p {
     margin: 0;
@@ -338,13 +337,13 @@ footer p b {
 }
 
 form {
-    text-align: center;
-    margin: 0 auto 86px auto;
     display: flex;
     flex-direction: column;
-    gap: 30px;
     align-items: center;
+    gap: 30px; 
     max-width: 810px;
+    margin: 0 auto 86px auto;
+    text-align: center;
 }
 
 form label {
@@ -387,10 +386,10 @@ form textarea {
     font-size: 14px;
     font-style: italic;
     font-weight: 400;
+    color: #c4c4c4;
+    border: 1px solid #e1e1e1; /* границы или контур: размер, стиль, цвет */
     border-radius: 2px;
     resize: none;
-    border: 1px solid #e1e1e1; /* границы или контур: размер, стиль, цвет */
-    color: #c4c4c4;
 }
 
 input[type="submit"] {
@@ -453,12 +452,12 @@ input[type="url"] {
 }
 
 .underheader {
-    text-align: center;
-    text-transform: uppercase;
     margin-top: 70px;
     font-size: 30px;
     font-weight: 300;
     letter-spacing: 5px;
+    text-align: center;
+    text-transform: uppercase;
     color: #333333;
 }
 
@@ -470,13 +469,12 @@ input[type="url"] {
     margin-bottom: 28px;
     padding-left: 0;
     list-style: none;
-
 }
 
 .underheader-items li {
-    text-align: center;
     font-size: 14px;
     font-weight: 700;
+    text-align: center;
     color: #777777;
 }
 
